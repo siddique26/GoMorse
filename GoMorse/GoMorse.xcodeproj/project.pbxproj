@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B388746203043BC00834E18 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B388745203043BC00834E18 /* TableViewController.swift */; };
+		1B3887482030702000834E18 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3887472030702000834E18 /* String.swift */; };
+		1B38874A2030790500834E18 /* morseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3887492030790500834E18 /* morseCode.swift */; };
 		1B75DDFB202E1162001633D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75DDFA202E1162001633D3 /* AppDelegate.swift */; };
 		1B75DDFD202E1162001633D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75DDFC202E1162001633D3 /* ViewController.swift */; };
 		1B75DE00202E1162001633D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B75DDFE202E1162001633D3 /* Main.storyboard */; };
@@ -38,14 +41,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B388743203041E500834E18 /* GoMorse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GoMorse.app; path = "/Users/siddique/developer/GoMorse/GoMorse/build/Debug-iphoneos/GoMorse.app"; sourceTree = "<absolute>"; };
+		1B388744203041E500834E18 /* Morse.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = Morse.appex; path = "/Users/siddique/developer/GoMorse/GoMorse/build/Debug-iphoneos/Morse.appex"; sourceTree = "<absolute>"; };
+		1B388745203043BC00834E18 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1B3887472030702000834E18 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1B3887492030790500834E18 /* morseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morseCode.swift; sourceTree = "<group>"; };
 		1B75DDFA202E1162001633D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B75DDFC202E1162001633D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B75DDFF202E1162001633D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B75DE01202E1162001633D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B75DE04202E1162001633D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B75DE06202E1162001633D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B75DE1C202E19A3001633D3 /* GoMorse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMorse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B75DE1D202E19A3001633D3 /* Morse.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = Morse.appex; path = "/Users/siddique/developer/GoMorse/GoMorse/build/Debug-iphoneos/Morse.appex"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				1B75DDF9202E1162001633D3 /* GoMorse */,
-				1B75DE1C202E19A3001633D3 /* GoMorse.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +84,9 @@
 			children = (
 				1B75DDFA202E1162001633D3 /* AppDelegate.swift */,
 				1B75DDFC202E1162001633D3 /* ViewController.swift */,
+				1B3887492030790500834E18 /* morseCode.swift */,
+				1B3887472030702000834E18 /* String.swift */,
+				1B388745203043BC00834E18 /* TableViewController.swift */,
 				1B75DDFE202E1162001633D3 /* Main.storyboard */,
 				1B75DE01202E1162001633D3 /* Assets.xcassets */,
 				1B75DE03202E1162001633D3 /* LaunchScreen.storyboard */,
@@ -106,7 +114,7 @@
 			);
 			name = GoMorse;
 			productName = GoMorse;
-			productReference = 1B75DE1C202E19A3001633D3 /* GoMorse.app */;
+			productReference = 1B388743203041E500834E18 /* GoMorse.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1B75DE0F202E161E001633D3 /* Morse */ = {
@@ -123,7 +131,7 @@
 			);
 			name = Morse;
 			productName = Morse;
-			productReference = 1B75DE1D202E19A3001633D3 /* Morse.appex */;
+			productReference = 1B388744203041E500834E18 /* Morse.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B75DDFD202E1162001633D3 /* ViewController.swift in Sources */,
+				1B38874A2030790500834E18 /* morseCode.swift in Sources */,
 				1B75DDFB202E1162001633D3 /* AppDelegate.swift in Sources */,
+				1B3887482030702000834E18 /* String.swift in Sources */,
+				1B388746203043BC00834E18 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
